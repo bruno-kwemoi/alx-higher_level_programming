@@ -1,0 +1,17 @@
+this is a doctest for text_indentation function
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation(123)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise TypeError("text must be a string")
+TypeError: text must be a string
+>>> text_indentation("Bruno? kwemoi.")
+Bruno?
+<BLANKLINE>
+kwemoi.
+<BLANKLINE>
+>>> text_indentation("Bruno kwemoi.")
+Bruno kwemoi.
+<BLANKLINE>
+>>> text_indentation("Bruno kwemoi")
+Bruno kwemoi
