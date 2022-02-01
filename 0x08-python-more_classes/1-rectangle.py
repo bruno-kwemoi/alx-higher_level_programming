@@ -5,7 +5,9 @@ module 1-rectangle
 
 
 class Rectangle:
+    """it defines the class rectangle"""
     def __init__(self, width=0, height=0):
+        """initializes class attributes"""
         self.width = width
         self.height = height
 
