@@ -1,1 +1,0 @@
-bruno@bruno-HP-ProBook-6470b.90807:1643725666
