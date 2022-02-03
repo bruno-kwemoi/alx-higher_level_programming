@@ -6,4 +6,5 @@ SELECT state_id
 FROM states
 WHERE name = 'California'
 )
+GROUP BY id
 ORDER BY id ASC;
